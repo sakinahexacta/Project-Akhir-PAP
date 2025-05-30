@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok 5 - Home page</title> 
+    <link rel = "stylesheet" href="StyleHomePage.css">
+</head>
+<body>
+    <div class="atas">
+        <img alt="logo sun blossom" src="image/IMG_20250528_172023.png" class="logo">
+        <div class="letakfontatas">
+            <div class="kotakhome">
+                <p class="fontatas"> HOME </p>
+            </div>
+            <p class="fontatas"> BEST SELLER </p>
+            <p class="fontatas"> SEMUA KOLEKSI </p>
+            <p class="fontatas">NEWS & EVENTS </p>
+            <p class="fontatas"> CONTACT US </p>
+        </div>
+    </div>
+    <div class="gambaratas">
+        <img alt="buket besar merah" src="image/buket bunga merah besar.jpg" class="gambaratass">
+        <img alt="buket ungu besar" src="image/buket bunga ungu besar.jpg" class="gambaratass">
+        <img alt="buket uang besar" src="image/buket uang pink besar.jpg" class="gambaratass">
+        <img alt="buket biru besar" src="image/buket bunga biru besar.jpg" class="gambaratass">
+    </div>
+    <div class="pilihanatas">
+        <div class="tombolkategori">
+            <p class="kat"> KATEGORI </p>
+        </div>
+        <div class="tombolsemuaproduct">
+            <p class="kat"> SEMUA PRODUK </p>
+        </div>
+        <div class="tomboldiskon">
+            <p class="kat"> DISKON </p>
+        </div>
+    </div>
+    <div class="homeproduk">
+        <div class="produk">
+            <img alt="buket satu" src="image/buket kupu-kupu pink.jpg" class="gambarhome">
+            <div class="ketsatu">
+                <p class="nama"> Butterfly Flowers </p>
+                <p class="harga"> Rp 80.000 </p>
+            </div>
+        </div>
+        <div class="produk">
+            <img alt="buket dua" src="image/bunga estetik alone.jpg" class="gambarhome">
+            <div class="ketsatu">
+                <p class="nama"> Bunga Unik Satu Tangkai</p>
+                <p class="harga"> Rp 5.000</p>
+            </div>
+        </div>
+        <div class="produk">
+            <img alt="buket tiga" src="image/bunga mawar kertas.jpg" class="gambarhome">
+            <div class="ketsatu">
+                <p class="nama"> Mawar Kertas </p>
+                <p class="harga"> Rp 25.000</p>
+            </div>
+        </div>
+        <div class="produk">
+            <img alt="buket empat" src="image/bunga matahari alone.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Matahari Satu Tangkai </p>
+                <p class="harga"> Rp 40.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket lima" src="image/bunga kertas blackpink.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Blackpink flowers </p>
+                <p class="harga"> Rp 70.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket enam" src="image/buket wisuda biru.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Blue Butterfly </p>
+                <p class="harga"> Rp 45.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket tujuh" src="image/buket bundae ungu.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Purple Light </p>
+                <p class="harga"> Rp 60.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket delapan" src="image/buket bunga ratu menyala.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Ratu Tulip Berkilau </p>
+                <p class="harga"> Rp 40.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket sembilan" src="image/bunga asli ungu putih.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> White Purple </p>
+                <p class="harga"> Rp 30.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket sepuluh" src="image/lampu bunga.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Lampu Bunga </p>
+                <p class="harga"> Rp 35.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket sebelas" src="image/bunga asli kebun.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Bunga Pelangi </p>
+                <p class="harga"> Rp 45.000</p>
+            </div>     
+        </div>
+        <div class="produk">
+            <img alt="buket dua belas" src="image/bunga mawar valentine.jpg" class="gambarhome">  
+            <div class="ketsatu">
+                <p class="nama"> Valentine Rose </p>
+                <p class="harga"> Rp 25.000</p>
+            </div>     
+        </div>
+    </div>
+    <div class="kotakinfo">
+        <img alt="logo bawah" src="image/IMG_20250528_172023.png" class="logobawah">
+        <div class="sunblossom">
+            <h2 class="namabawah"> Sun Blossom </h2>
+            <h3> Kreasikan bungamu </h3>
+            <p> Jl. Sacitian No. 4 Kota Malang</p>
+        </div>
+    </div>
+</body>
+</html>
