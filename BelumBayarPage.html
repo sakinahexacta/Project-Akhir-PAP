@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunBlossom - Belum bayar</title>
+  <link rel="stylesheet" href="StyleBelumBayar.css" />
+</head>
+<body>
+  <div class="tab-container">
+    <div class="tabs">
+      <div class="tab active" onclick="changeTab(this, 'Belum ada pesanan')">Belum Bayar</div>
+      <div class="tab" onclick="changeTab(this, 'Pesanan dalam perjalanan')">Dalam Perjalanan</div>
+      <div class="tab" onclick="changeTab(this, 'Pesanan selesai')">Selesai</div>
+    </div>
+
+    <div class="tab-content" id="tabContent">
+      <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Belum ada pesanan" />
+      <p id="tabText">Belum ada pesanan</p>
+    </div>
+  </div>
+
+  <script>
+    function changeTab(tabElement, message) {
+      document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+      tabElement.classList.add('active');
+
+      document.getElementById('tabText').textContent = message;
+    }
+  </script>
+</body>
+</html>
