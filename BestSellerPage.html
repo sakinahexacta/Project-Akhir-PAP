@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sun Blossom - Best Seller Page </title>
+    <link rel="stylesheet" href="StyleBestSellerPage.css">
+</head>
+
+<body>
+    <div class="atas">
+        <img alt="logo sun blossom" src="image/logo fix.png" class="logo">
+        <a href="LoginPage.html" target="_self" class="login">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="profile">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+            </svg>
+        </a>
+        <a href="KeranjangPage.html" target="_self">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="keranjang"
+                viewBox="0 0 16 16">
+                <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+            </svg>
+        </a>
+        <button onclick="toggleSearch()" class="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
+                class="seac">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+        </button>
+        <div class="kotakcari" id="searchBox">
+            <input type="text" placeholder="Cari buket..." class="cari">
+            <button type="submit" class="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+            </button>
+        </div>
+        <div class="letakfontatas">
+            <a class="fontatas" href="HomePage.html" target="_self"> HOME </a>
+            <a class="visit" href="BestSellerPage.html" target="_self"> BEST SELLER </a>
+            <a class="fontatas" href="SemuaKoleksiPage.html" target="_self"> SEMUA KOLEKSI </a>
+            <a class="fontatas" href="NewsAndEventPage.html" target="_self"> NEWS & EVENTS </a>
+            <a class="fontatas" href="TestimoniPage.html" target="_self"> TESTIMONI </a>
+        </div>
+    </div>
+    <div class="layout">
+        <a class="kotakproduk" href="DetailProdukPage.html" target="_self">
+            <img alt="Best Seller kesatu" src="image/buket bunga merah besar.jpg" class="bestseller">
+            <div class="kotakbestsel">
+                <h2 class="fontbestsel"> Mawar Big Love</h2>
+                <p class="hargabestsel"> Rp 540.000</p>
+                <p class="ketbestsel">
+                    Buket bunga mawar dengan sentuhan cinta yang diselimuti oleh kemegahan menambahkan kesan cinta yang
+                    mendalam.
+                </p>
+                <div class="warnaa">
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Merah </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Biru </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Pink </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Hitam </p>
+                    </div>
+                </div>
+            </div>
+            <div class="kotakrek">
+                <p class="fontrek"> Rekomendasi Lainnya</p>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/mawar merah putih.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Rose Indonesia </p>
+                        <p class="hargaketrek"> Rp 460.000</p>
+                    </div>
+                </div>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/pita rose merah putih.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Pita Indonesia </p>
+                        <p class="hargaketrek"> Rp 690.000</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="kotakproduk" href="DetailProdukPage.html" target="_self">
+            <img alt="Best Seller kesatu" src="image/buket bunga ungu besar.jpg" class="bestseller">
+            <div class="kotakbestsel">
+                <h2 class="fontbestsel"> Purple Blossom</h2>
+                <p class="hargabestsel"> Rp 480.000</p>
+                <p class="ketbestsel">
+                    Buket bunga sepatu yang mencerminkan keanggunan, keindahan, dan kedamaian. Dibalut dengan properti
+                    unik menambah kesan kearmonisan dan kasih sayang.
+                </p>
+                <div class="warnaa">
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Pink </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Biru </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Kuning </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> putih </p>
+                    </div>
+                </div>
+            </div>
+            <div class="kotakrek">
+                <p class="fontrek"> Rekomendasi Lainnya</p>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/bunga buket plastik.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Buket Plastik Lucu </p>
+                        <p class="hargaketrek"> Rp 240.000</p>
+                    </div>
+                </div>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/pita pink white.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Pita Barbie </p>
+                        <p class="hargaketrek"> Rp 370.000</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="kotakproduk" href="DetailProdukPage.html" target="_self">
+            <img alt="Best Seller kesatu" src="image/buket uang pink besar.jpg" class="bestseller">
+            <div class="kotakbestsel">
+                <h2 class="fontbestsel"> Money Flower</h2>
+                <p class="hargabestsel"> Rp 5.500.000</p>
+                <p class="ketbestsel">
+                    Buket uang dengan senuhan style yang menarik bercampur dengan kebahagiaan menyalurkan kebahagiaan
+                    pada orang-orang di sekitarnya.
+                </p>
+                <div class="warnaa">
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Biru </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Hijau </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Ungu </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Coklat </p>
+                    </div>
+                </div>
+            </div>
+            <div class="kotakrek">
+                <p class="fontrek"> Rekomendasi Lainnya</p>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/rose money purple.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Rose Money Purple </p>
+                        <p class="hargaketrek"> Rp 820.000</p>
+                    </div>
+                </div>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/mekar uang merah.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Red Money Blossom </p>
+                        <p class="hargaketrek"> Rp 8.350.000</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a class="kotakproduk" href="DetailProdukPage.html" target="_self">
+            <img alt="Best Seller kesatu" src="image/buket bunga biru besar.jpg" class="bestseller">
+            <div class="kotakbestsel">
+                <h2 class="fontbestsel"> Quen Rose</h2>
+                <p class="hargabestsel"> Rp 1.980.000</p>
+                <p class="ketbestsel">
+                    Bunga rose dengan kilaunya dibalut dengan sentuhan pernak-pernik ratu mencerminkan kemewahan,
+                    kemegahan, dan kecantikan.
+                </p>
+                <div class="warnaa">
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Merah </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Biru </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Pink </p>
+                    </div>
+                    <div class="ketwarna">
+                        <p class="fontwarna"> Hitam </p>
+                    </div>
+                </div>
+            </div>
+            <div class="kotakrek">
+                <p class="fontrek"> Rekomendasi Lainnya</p>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/black mamba.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Black Mamba </p>
+                        <p class="hargaketrek"> Rp 280.000</p>
+                    </div>
+                </div>
+                <div class="reklain">
+                    <img alt="bukerrek1" src="image/bunga pink hello kitty.jpg" class="gambarrek">
+                    <div>
+                        <p class="ketrek"> Hello Kitty Flower </p>
+                        <p class="hargaketrek"> Rp 585.000</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <script>
+        function toggleSearch() {
+            const box = document.getElementById('searchBox');
+            box.style.display = box.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+
+</html>

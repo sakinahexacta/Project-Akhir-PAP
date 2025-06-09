@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunBlossom - Dalam perjalanan</title>
+  <link rel="stylesheet" href="StyleDalamPerjalanan.css" />
+</head>
+<body>
+  <div class="tab-container">
+    <div class="tabs">
+      <div class="tab" onclick="changeTab(this, 'Belum ada pesanan')">Belum Bayar</div>
+      <div class="tab active" onclick="changeTab(this, 'Pesanan dalam perjalanan')">Dalam Perjalanan</div>
+      <div class="tab" onclick="changeTab(this, 'Pesanan selesai')">Selesai</div>
+    </div>
+
+   <div class="order-list">
+  <div class="order-item">
+    <div class="order-header">
+      <span class="shop-name">SunBlossom Florist</span>
+      <span class="order-status">SEDANG DIKEMAS</span>
+    </div>
+    <div class="order-body">
+      <img src="image/buket bunga merah besar.jpg" class="product-img" />
+      <div class="product-details">
+        <div class="product-name">Bucket Mawar Merah Premium</div>
+        <div class="product-qty">x1</div>
+        <div class="product-price">Rp250.000</div>
+        <div class="delivery-date">Produk akan dikirim sebelum <strong>10-06-2025</strong></div>
+      </div>
+    </div>
+    <div class="order-footer">
+      <div class="order-total">Total: <strong>Rp253.000</strong></div>
+      <div class="order-actions">
+        <button class="btn-contact">Hubungi Penjual</button>
+        <button class="btn-cancel">Batalkan Pesanan</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script>
+    function changeTab(tabElement, message) {
+      document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+      tabElement.classList.add('active');
+
+      document.getElementById('tabText').textContent = message;
+    }
+  </script>
+</body>
+</html>
