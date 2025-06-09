@@ -1,0 +1,445 @@
+body {
+    margin: 0px 0px 50px 0px;
+    background-color: rgb(255, 243, 227);
+    background-image: url(image/background\ atas.jpg);
+    background-blend-mode: multiply;
+}
+
+.atas {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 241, 223);
+    margin: 0px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 8px;
+}
+
+.letakfontatas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.visit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 9px;
+    color: #ffb5b5ab; 
+    text-underline-offset: 3px;
+}
+
+.fontatas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 9px;
+    color: black;
+    text-decoration: none;
+}
+
+.fontatas:hover {
+    color: #ffb5b5ab;
+}
+
+.profile {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 630px;
+}
+
+.profile:hover {
+    color: #ffb5b5ab;
+}
+
+.login {
+    color: black;
+}
+
+.keranjang {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 550px;
+    color: black;
+}
+
+.keranjang:hover {
+    color: #ffb5b5ab;
+}
+
+.search {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 500px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.seac {
+    width: 20px;
+    height: 20px;
+}
+
+.kotakcari {
+    position: absolute;
+    display: none;
+    background-color:  #ffb5b5ab ;
+    width: 250px;
+    height: 50px;
+    margin-left: 1120px;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+
+.cari {
+    border-radius: 100px;
+    height: 30px;
+    width: 200px ;
+    margin-top: 8px;
+    border: 1px gray solid ;
+    padding-left: 10px;
+    background-color: rgb(238, 237, 237);
+}
+
+.submit {
+    position: absolute;
+    border: 0px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: -35px;
+    color: gray;
+}
+
+.layoo {
+    padding-top: 150px;
+}
+
+.kotakdetail {
+    width: 90%;
+    background-color:  #ffb5b5ab ;
+    height: 1000px;
+    margin-top: 50px;
+    margin-left: 75px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start
+}
+
+.gambardetail {
+    width: 500px ;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.fontjudul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.fontharga {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.fontwarna {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.fontketwarna {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.fontsize {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.ketwarna {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 700px;
+    padding-left: 50px;
+}
+
+.gambarwarna {
+    width: 40px;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.ketnamawarna {
+    display: flex;
+    align-items: flex-start ;
+    width: 200px;
+    border: black 1px solid;
+    border-radius: 10px;
+    /* background-color: rgb(255, 243, 227); */
+}
+
+.fontketnamawarna {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ketkotaksize {
+    width: 90px;
+    height: 40px;
+    /* background-color:   rgb(255, 243, 227); */
+    border-radius: 10px;
+    padding-top: 1px;
+    border: black 1px solid;
+}
+
+.fontketkecil {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+    margin-top: 9px;
+}
+
+.fontketsedang {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+
+.fontketbesar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 23px;
+    margin-top: 9px;
+}
+
+.fontket {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.fontrek {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.kotakrek {
+    width: 350px;
+    height: 100px;
+    background-color: rgb(255, 243, 227);
+    border-radius: 10px;
+    display: flex;
+}
+
+.gambarrek {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.kotakgambar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 800px;
+    padding-left: 50px;
+}
+
+.fontbungarek {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    font-size: larger;
+    margin-bottom: 0px;
+}
+
+.fonthargarek {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.kotakpemesanan {
+    width: 90%;
+    height: 50px;
+    background-color: #ffb5b5ab;
+    margin-left: 75px;
+    margin-top: 30px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 1px;
+}
+
+.kotakpemesanan:hover {
+    box-shadow: 0px 0px 50px #ffb5b5ab;
+    background-color: antiquewhite;
+}
+
+.fontker {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+
+.lay {
+
+}
+
+@media (max-width: 768px) {
+  /* .letakfontatas {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  } */
+
+  .fontatas, .visit {
+    padding: 0.5rem 0;
+    font-size: x-small;
+  }
+
+  .pilihanatas {
+    gap: 40px;
+  }
+
+  .homediskon {
+    column-gap: 290px;
+    flex-wrap: wrap;
+    padding-left: 40px;
+  }
+
+  .produk {
+    width: 50px;
+  }
+
+  .profile {
+    margin-left: 250px;
+  }
+
+  .keranjang {
+    margin-left: 200px;
+  }
+
+  .search {
+    margin-left: 150px;
+  }
+
+  .gambardetail {
+    width: 100px;
+  }
+
+  .fontjudul {
+    font-size: large;
+  }
+
+  .fontharga {
+    font-size: small;
+  }
+
+  .fontket {
+    font-size: small;
+  }
+
+  .lay {
+    width: 550px;
+  }
+
+  .fontwarna {
+    font-size: medium;
+  }
+
+  .ketwarna {
+    width: 550px;
+  }
+
+  .ketnamawarna {
+    width: 200px;
+    height: 35px;
+  }
+
+    .gambarwarna {
+        width: 30px;
+    }
+
+    .fontketnamawarna {
+        font-size: small;
+    }
+
+    .fontsize {
+        font-size: medium;
+    }
+
+    .ketkotaksize {
+        width: 200px;
+        height: 35px;
+    }
+
+    .fontsize {
+        font-size: small;
+    }
+
+    .fontrek {
+        font-size: medium;
+    }
+
+    .kotakrek {
+        width: 200px;
+    }
+
+    .fontbungarek {
+        font-size: medium;
+    }
+
+    .fonthargarek {
+        font-size: small;
+    }
+
+    .kotakgambar {
+        width: 500px;
+    }
+
+    .fontker {
+        margin-left: 250px;
+    }
+
+    .kotakdetail {
+        margin-left: 38px;
+    }
+
+    .kotakpemesanan {
+        margin-left: 38px;
+    }
+
+}

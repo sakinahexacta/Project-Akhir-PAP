@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    background-color: rgb(255, 243, 227);
+    background-image: url(image/background\ atas.jpg);
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: block;
+    margin:  -75px auto 0; 
+    width: 300px;    
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -65px;
+}
+
+.profile p{
+    transform: translateY(-10px);
+}
+
+.container {
+    background-color: #ffb5b5ab;
+    width: 50%;
+    height: 650px;
+    margin: 50px auto;
+    padding: 75px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: translateY(-65px);
+
+}
+
+.Biodata-form{
+    text-align: left;
+ 
+}
+
+.Biodata-form label {
+  display:contents;
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #000;
+}
+
+.Biodata-form input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 243, 227);
+    font-size: 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.date-class{
+    width: 25%;
+ 
+}

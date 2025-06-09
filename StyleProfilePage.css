@@ -1,0 +1,153 @@
+body {
+    margin: 0px 0px 100px 0px;
+    background-color: rgb(255, 243, 227);
+    background-image: url(image/background\ atas.jpg);
+    background-blend-mode: multiply;
+}
+
+.kotakpesanan {
+    width: 800px;
+    height: 200px;
+    background-color: #ffb5b5ab ;
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 10px;
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+} 
+
+.kotakrhs {
+    display: flex;
+}
+
+.voucher {
+    width: 300px;
+    height: 50px;
+    background-color: #ffb5b5ab;
+    margin-top: 100px;
+    margin-left: 70px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.kotaksuka {
+    width: 300px;
+    height: 50px;
+    background-color: #ffb5b5ab;
+    margin-top: 100px;
+    margin-left: 800px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.templateproduk {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 115px;
+    margin-top: 90px;
+    width: 90%;
+}
+
+.produk {
+    background-color: #ffb5b5ab;
+    width: 300px;
+    height: 360px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.gambarpro {
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.fontpro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.hargapro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.fotomark {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 3px  #ffb5b5ab solid;
+}
+
+.fotomark:hover {
+    box-shadow: 0px 0px 50px #ffb5b5ab;
+    border: 3px antiquewhite solid;
+}
+
+.fontnama {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.propil {
+    display: flex;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nama {
+    width: 200px;
+    background-color: #ffb5b5ab;
+    height: 50px;
+    margin-top: 45px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nama:hover {
+    box-shadow: 0px 0px 50px #ffb5b5ab;
+    background-color: antiquewhite;
+}
+
+.belumbayar {
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.bb {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.kotakelemen {
+    width: 200px;
+    text-align: center;
+}
+
+.love {
+    width: 25px;
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.fontel {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

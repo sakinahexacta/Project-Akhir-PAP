@@ -1,0 +1,417 @@
+body {
+    margin: 0px;
+    background-color: rgb(255, 243, 227);
+    background-image: url(image/background\ atas.jpg);
+    background-blend-mode: multiply;
+}
+
+.atas {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 241, 223);
+    margin: 0px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 8px;
+}
+
+.letakfontatas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.visit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 9px;
+    color: #ffb5b5ab; 
+    text-underline-offset: 3px;
+}
+
+.fontatas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 9px;
+    color: black;
+    text-decoration: none;
+}
+
+.fontatas:hover {
+    color: #ffb5b5ab;
+}
+
+.profile {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 630px;
+}
+
+.profile:hover {
+    color: #ffb5b5ab;
+}
+
+.keranjang {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 550px;
+    color: black;
+}
+
+.keranjang:hover {
+    color: #ffb5b5ab;
+}
+
+.search {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 500px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.seac {
+    width: 20px;
+    height: 20px;
+}
+
+.gambaratas {
+    display: flex;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.gambarbergerak {
+    display: flex;
+    width: max-content;
+    animation: scroll 30s linear infinite;
+}
+
+.gambaratass {
+    width: 400px;
+    margin-top: 0px;
+}
+
+.pilihanatas {
+    display: flex;
+    gap: 20%;
+    width: 100%;
+    height: 100px;
+}
+
+.tombolkategori {
+    width: 170px;
+    height: 50px;
+    background-color:rgba(160, 160, 160, 0.499) ;
+    margin-top: 30px;
+    margin-left: 12%;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.tombolkategori:hover {
+    background-color: #ffb5b5ab;
+    box-shadow: 1px 1px 10px #ffb5b5ab;
+}
+
+.kat {
+    text-align: center;
+    padding-top: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.tombolsemuaproduct {
+    width: 170px;
+    height: 50px;
+    background-color:  #ffb5b5ab ;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.tombolsemuaproduct:hover {
+    background-color: #ffb5b5ab;
+    box-shadow: 1px 1px 10px #ffb5b5ab;
+}
+
+.tomboldiskon {
+    width: 170px;
+    height: 50px;
+    background-color: rgba(160, 160, 160, 0.499) ;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.tomboldiskon:hover {
+    background-color: #ffb5b5ab;
+    box-shadow: 1px 1px 10px #ffb5b5ab;
+}
+
+.homeproduk {
+    width: 100%;
+    background-color: #ffb5b5ab ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.gambarhome {
+    width: 320px;
+    border-radius: 10px 10px 0px 0px;
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.produk {
+    width: 15%;
+    margin-top: 0px;
+    margin-left: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+.produk:hover {
+    box-shadow: 50px 0px 100px  white;
+}
+
+.ketsatu {
+    background-color:  rgb(255, 243, 227);
+    width: 320px;
+    height: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: left;
+}
+
+.nama {
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.harga {
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.kotakinfo {
+    width: 100%;
+    height: 200px;
+    background-color:  rgb(255, 241, 223);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-items: flex-start
+}
+
+.sunblossom {
+    width: 300px;
+    height: 200px;
+    margin-left: 70px;
+    
+}
+
+.logobawah {
+    width: 150px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.namabawah {
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-top: 2px;
+}
+
+.kotakcari {
+    position: absolute;
+    display: none;
+    background-color:  #ffb5b5ab ;
+    width: 250px;
+    height: 50px;
+    margin-left: 1120px;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+
+.cari {
+    border-radius: 100px;
+    height: 30px;
+    width: 200px ;
+    margin-top: 8px;
+    border: 1px gray solid ;
+    padding-left: 10px;
+    background-color: rgb(238, 237, 237);
+}
+
+.submit {
+    position: absolute;
+    border: 0px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: -35px;
+    color: gray;
+}
+
+.ig {
+    width: 20px;
+    height: 20px;
+    margin-top: 100px;
+    margin-right: 0px;
+}
+
+.fontsosmed {
+    margin: 100px;
+    margin-left: 10px;
+}
+
+.twit {
+    width: 20px;
+    height: 20px;
+    margin-top: 100px;
+    margin-right: 0px;    
+}
+
+.cr {
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.copyr{
+    margin-top: 160px;
+    margin-left: 670px;
+}
+
+.simbolc {
+    width: 15px;
+    height: 15px;
+    margin-top: 163px;
+    margin-left: 5px;
+}
+
+.th {
+    margin-top: 161px;
+    margin-left: 3px;
+}
+
+.login {
+    color: black;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 768px) {
+  /* .letakfontatas {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  } */
+
+  .fontatas, .visit {
+    padding: 0.5rem 0;
+    font-size: x-small;
+  }
+
+  .pilihanatas {
+    gap: 40px;
+  }
+
+  .homeproduk {
+    column-gap: 250px;
+    flex-wrap: wrap;
+  }
+
+  .produk {
+    width: 50px;
+  }
+
+  .profile {
+    margin-left: 250px;
+  }
+
+  .keranjang {
+    margin-left: 200px;
+  }
+
+  .search {
+    margin-left: 150px;
+  }
+
+  .logobawah {
+    width: 100px;
+  }
+
+  .namabawah {
+    font-size: large ;
+  }
+  
+  h3 {
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+  }
+
+  .sunblossom {
+    margin-left: 10px;
+    width: 150px;
+  }
+
+  .ig {
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+  }
+
+  .fontsosmed {
+    font-size: small;
+    margin-right: 3px;
+  }
+
+  .copyr {
+    margin-left: 40%;
+  }
+}

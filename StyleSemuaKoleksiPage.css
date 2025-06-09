@@ -1,0 +1,264 @@
+body {
+    margin: 0px 0px 50px 0px;
+    background-color: rgb(255, 243, 227);
+    background-image: url(image/background\ atas.jpg);
+    background-blend-mode: multiply;
+}
+
+.atas {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 241, 223);
+    margin: 0px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 8px;
+}
+
+.letakfontatas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.visit {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 9px;
+    color: #ffb5b5ab; 
+    text-underline-offset: 3px;
+}
+
+.fontatas {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    margin-top: 9px;
+    color: black;
+    text-decoration: none;
+}
+
+.fontatas:hover {
+    color: #ffb5b5ab;
+}
+
+.profile {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 630px;
+}
+
+.profile:hover {
+    color: #ffb5b5ab;
+}
+
+.login {
+    color: black;
+}
+
+.keranjang {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 550px;
+        color: black;
+}
+
+.keranjang:hover {
+    color: #ffb5b5ab;
+}
+
+.search {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 500px;
+    border: 0px;
+    background-color: transparent;
+}
+
+.seac {
+    width: 20px;
+    height: 20px;
+}
+
+.kotakcari {
+    position: absolute;
+    display: none;
+    background-color:  #ffb5b5ab ;
+    width: 250px;
+    height: 50px;
+    margin-left: 1120px;
+    margin-top: -40px;
+    border-radius: 10px;
+}
+
+.cari {
+    border-radius: 100px;
+    height: 30px;
+    width: 200px ;
+    margin-top: 8px;
+    border: 1px gray solid ;
+    padding-left: 10px;
+    background-color: rgb(238, 237, 237);
+}
+
+.submit {
+    position: absolute;
+    border: 0px;
+    background-color: transparent;
+    margin-top: 15px;
+    margin-left: -35px;
+    color: gray;
+}
+
+.fontkoleksi {
+    padding-top: 20px;
+    justify-self: left;
+    padding-left: 75px;
+}
+
+.kotakkoleksi {
+    width: 90%;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 65px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 10px;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.produk {
+    width: 300px;
+    height: 380px;
+    background-color:  #ffb5b5ab ;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.produk:hover {
+    box-shadow: 0px 0px 100px #ffb5b5ab;
+}
+
+.gambarkoleksi {
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fontkol {
+    justify-self: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.hargakol {
+    justify-self: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.right {
+    width: 20px;
+    height: 20px;
+}
+
+.left {
+    width: 20px;
+    height: 20px;
+}
+
+.kanan {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 1400px;
+    border: 0px;
+    background-color: transparent ;
+}
+
+.kiri {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 1360px;
+    border: 0px;
+    background-color: transparent ;
+}
+
+.layo {
+    padding-top: 150px;
+}
+
+@media (max-width: 768px) {
+  /* .letakfontatas {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  } */
+
+  .fontatas, .visit {
+    padding: 0.5rem 0;
+    font-size: x-small;
+  }
+
+  .pilihanatas {
+    gap: 40px;
+  }
+
+  .homediskon {
+    column-gap: 290px;
+    flex-wrap: wrap;
+    padding-left: 40px;
+  }
+
+  .produk {
+    width: 50px;
+  }
+
+  .profile {
+    margin-left: 250px;
+  }
+
+  .keranjang {
+    margin-left: 200px;
+  }
+
+  .search {
+    margin-left: 150px;
+  }
+
+  .kotakkoleksi {
+    column-gap: 5px;
+  }
+
+  .produk {
+    width: 300px;
+  }
+  
+}
